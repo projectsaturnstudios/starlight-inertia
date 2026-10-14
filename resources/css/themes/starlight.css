@@ -1,0 +1,13 @@
+/* Starlight's stock indigo accent: the base default, restated for copying. */
+
+:root {
+    --sl-color-accent-low: #d9def7;
+    --sl-color-accent: #3b57d6;
+    --sl-color-accent-high: #1a2a6b;
+}
+
+:root[data-theme='dark'] {
+    --sl-color-accent-low: #1b2650;
+    --sl-color-accent: #6d84f0;
+    --sl-color-accent-high: #c4cfff;
+}

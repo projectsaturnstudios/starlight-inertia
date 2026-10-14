@@ -1,0 +1,13 @@
+/* Venus: warm amber on Starlight's grey scale. Import after starlight.css. */
+
+:root {
+    --sl-color-accent-low: #fff0cf;
+    --sl-color-accent: #9a5b00;
+    --sl-color-accent-high: #4a2b00;
+}
+
+:root[data-theme='dark'] {
+    --sl-color-accent-low: #3a2900;
+    --sl-color-accent: #e0a526;
+    --sl-color-accent-high: #ffe2a6;
+}
